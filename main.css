@@ -1,0 +1,146 @@
+@font-face{
+font-family: 'Epilogue';
+src: url('./../fonts/Epilogue-SemiBold.ttf') format('truetype');
+font-weight: 600;
+}
+@font-face{
+	font-family: 'Epilogue';
+	src: url('./../fonts/Epilogue-Medium.ttf') format('truetype');
+	font-weight: 500;
+}
+@font-face{
+font-family: 'Epilogue';
+src: url('./../fonts/Epilogue-Regular.ttf') format('truetype');
+font-weight: 400;
+}
+body{
+	font-family: 'Epilogue';
+	background-color: #3B3B3B;
+}
+.port{
+	width: 430px;
+	font-weight: 600;
+	font-size: 91.46px;
+	line-height: 102.7px;
+	color: #FFFFFF;
+	position:absolute;
+	top:101.81px;
+	left:80.22px;
+}
+.port hr{
+	width: 421.72px;
+	height: 0px;
+	color: #FFFFFF;
+	position:absolute;
+	top:200.22px;
+}
+.export{
+	width: 458.14px;
+	font-weight: 500;
+	color: #FFFFFF;
+	font-size: 54.06px;
+	line-height: 72.7px;
+	position:absolute;
+	top:430.33px;
+	left:80.22px;
+}
+.img{
+	width:274.14px;
+	position:absolute;
+	top:785.88px;
+	left:80.22px;
+}
+.grid-conteiner{
+	position: absolute;
+	top: 88px;
+	left: 635px;
+	display: grid;
+	gap:30px;
+	grid-template-columns:617px;
+	grid-template-rows:320.57px 507.42px;
+}
+.grid-conteiner-one{
+	position:absolute;
+	top:88px;
+	left:1282px;
+	display:grid;
+	gap:30px;
+	grid-template-columns:318px;
+	grid-template-rows:252px 273px 272px;
+}
+.grid-element{
+	background-color: #FFFFFF;
+}
+.o-sebe{
+	position: absolute;
+	top: 26.45px;
+	left: 75.11px;
+	display: grid;
+	gap: 40px;
+	grid-template-columns: 212px 212px;
+	grid-template-rows: 267.67px;
+}
+.br{
+	font-weight: 600;
+	font-size: 12.59px;
+	line-height: 18.9px;
+}
+.vis{
+	padding-top:15px ;
+	font-weight: 600;
+	font-size: 42.82px;
+	line-height: auto;
+}
+.this{
+	padding-top: 15px;
+	font-weight: 400;
+	font-size: 10.7px;
+	line-height: 17px;
+}
+.cont{
+	position: absolute;
+     left: 0px;
+     top: 218.45px;
+		width: 133.6px;
+	height: 49.22px;
+	background-color: #2D2D2D;
+    font-weight:600;
+    font-size: 12.59px;
+    line-height: 18.9px;
+    color: #FFFFFF;
+}
+.cont div{
+	position: relative;
+	top: 15.11px;
+	left: 40.3px;
+}
+.lastest{
+	font-weight:600;
+	font-size:15.46px;
+	margin:0;
+	position:relative;
+	top:30px;
+	text-align:center;
+}
+.o-sebe-three{
+	width:524px;
+	display: grid;
+	grid-template-columns:repeat(3, 159.48px);
+	grid-template-rows: 203.94px;
+	gap:22px;
+	position:relative;
+	left:47.22px;
+	top:58.73px;
+}
+.pr-tittle{
+	font-weight: 600;
+	font-size: 9.67px;
+	position: relative;
+	top: 15px;
+}
+.UI{
+	font-weight: 400;
+	font-size: 8.22px;
+	position: relative;
+	top: 6px;
+}
